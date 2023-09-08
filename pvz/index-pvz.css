@@ -1,0 +1,32 @@
+.red-button {
+    background: red;
+}
+
+.blue-button {
+    background: blue;
+}
+
+.large-text-button {
+    font-size: 40px;
+}
+
+#button-1 {
+    width: 200px;
+}
+
+#dezutes {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+    background: #a6a6f1;
+}
+
+#dezutes div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
