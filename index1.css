@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    display:flex;
-    margin:0px;
-    flex-direction: column;
     height: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .spalva {
@@ -39,9 +39,42 @@ body {
 
 #zemiau {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     background-color: rgb(248, 231, 210);
     height: 100px;
     flex: 1;
+}
+
+.deze {
+    padding: 7px;
+    margin-top: 20px;
+    width: 170px;
+    background-color: rgb(255, 249, 241);
+    border-radius: 10px;
+    border:1px solid rgb(155, 123, 81);
+}
+
+.eilute {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pav2 {
+    text-decoration: underline;
+    text-align: center;
+    color:rgb(155, 123, 81);
+}
+
+.ingrediantai {
+    color:rgb(155, 123, 81);
+}
+
+.pasirinkimas {
+    color:rgb(155, 123, 81);
+}
+
+.kaina {
+    color:rgb(155, 123, 81);
 }
