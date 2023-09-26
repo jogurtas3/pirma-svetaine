@@ -1,13 +1,6 @@
-html {
-    height: 100%;
-}
 
-body {
-    height: 100%;
-    margin:0px;
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 .spalva {
     color:rgb(164, 133, 93);
@@ -37,22 +30,16 @@ body {
     height: 40px;
 }
 
-#zemiau {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color: rgb(248, 231, 210);
-    height: 100px;
-    flex: 1;
-}
+
 
 .deze {
-    padding: 7px;
+    padding: 15px;
     margin-top: 20px;
-    width: 170px;
+    width: 20%;
     background-color: rgb(255, 249, 241);
     border-radius: 10px;
     border:1px solid rgb(155, 123, 81);
+    height: 400px;
 }
 
 .eilute {
@@ -65,16 +52,44 @@ body {
     text-decoration: underline;
     text-align: center;
     color:rgb(155, 123, 81);
+    font-size: 25px;
 }
 
 .ingrediantai {
     color:rgb(155, 123, 81);
+    font-size: 20px;
 }
 
 .pasirinkimas {
     color:rgb(155, 123, 81);
+    font-size: 20px;
 }
 
 .kaina {
     color:rgb(155, 123, 81);
+    font-size: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+#zemiau {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(248, 231, 210);
+    height: 100px;
+    flex: 1;
+}
+
+body {
+    height: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarpas {
+    height:10px;
 }
