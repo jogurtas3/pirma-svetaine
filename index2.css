@@ -1,0 +1,47 @@
+#myg {
+    border: 3px groove rgb(190, 167, 136);
+    background: rgb(228, 200, 166);
+    font-family: "Georgia";
+    font-size: 20px;
+}
+
+#navigacija {
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 200, 166);
+    height: 40px;
+}
+
+#pav1 {
+    background-color: rgb(228, 200, 166);
+    height: 20px;
+    font-size: 30px;
+    font-family:"Brush Script MT";
+}
+
+.spalva {
+    color:rgb(164, 133, 93);
+    font-family: "Georgia";
+    font-size: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#zemiau {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(248, 231, 210);
+    height: 100px;
+    flex: 1;
+}
