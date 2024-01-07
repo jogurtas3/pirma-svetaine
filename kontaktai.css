@@ -1,0 +1,115 @@
+.spalva {
+    color:rgb(164, 133, 93);
+    font-family: "Georgia";
+    font-size: 25px;
+}
+
+#pav {
+    background-color: rgb(228, 200, 166);
+    height: 20px;
+    font-size: 30px;
+    font-family:"Brush Script MT";
+}
+
+#navigacija {
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 200, 166);
+    height: 40px;
+}
+
+#myg {
+    border: 2px solid rgb(164, 133, 93);
+    background: rgb(228, 200, 166);
+    font-family: "Georgia";
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#myg:hover {
+    transition: 0.2s;
+    color: rgb(92, 70, 41);
+    border: 2px solid rgb(92, 70, 41);
+}
+
+#myg:active {
+    opacity: 0.1;
+}
+
+body {
+    height: 100%;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#zemiau {
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(248, 231, 210);
+    height: 100px;
+    flex: 1;
+    align-items: center;
+    padding-top: 40px;
+}
+
+html {
+    height: 100%;
+}
+
+#kontaktai {
+    font-size: 50px;
+    margin-bottom: 25px;
+    color:rgb(164, 133, 93);
+    font-family: "Pacifico Regular";
+}
+
+#vieta {
+    display:flex;
+    justify-content: start;
+    gap:6px;
+    margin-bottom: 15px;
+}
+
+#link {
+    color:rgb(196 166 130);
+    font-size: 25px;
+}
+
+#logo {
+    height: 53px;
+    margin-top: -8px;
+}
+
+.tekstas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding-bottom: 200px;
+    margin-top: auto;
+}
+
+.puod {
+    height: 750px;
+}
+
+#tel {
+    margin-bottom: 15px;
+}
+
+#pastas {
+    margin-bottom: 15px;
+}
+
+#katukas {
+    display: flex;
+    align-items: center;
+    font-family: Pacifico;
+    font-size: 30px;
+    color: rgb(132 107 74);
+}

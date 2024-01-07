@@ -2,24 +2,37 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .oval {
+                height: 50px;
+                width: 100px;
+                background-color: #555;
+                border-radius: 50%;
+            }
+        </style>
     </head>
     <body>
         <div id="navigacija">
-            <img id="logo" src="logo_sviesus.svg"/>
+            <div id="katukas">
+                <img id="logo" src="katukas.svg"/>
+                <a>Trumpa pertraukėlė</a>
+            </div>
             <button class="spalva" id="myg">Pradžia</button>
         </div>
         <div id="zemiau">
-            <div class="tekstas">
-                <div id="kontaktai">Kontaktai</div>
-                <div id="vieta">
-                    <div class="spalva">Adresas:</div>
-                    <a id="link" href="">Pavadinimo g.21, 45123</a>
+            <div id="mygt">
+                <div class="myg2">
+                    <img class="letena" src="letena.svg"/>
+                    <button onclick="document.location='meniu.html'" class="spausk">Meniu</button>
                 </div>
-                <div id="tel" class="spalva">Telefono nr.: +370XXXXXXXX</div>
-                <div id="pastas" class="spalva">El. paštas: trumpa.pertraukele@gmail.com</div>
+                <div class="myg2">
+                    <img class="letena" src="letena.svg"/>
+                    <button onclick="document.location='kontaktai.html'" class="spausk">Kontaktai</button\>
+                </div>
             </div>
-            <img class="puod" src="puodukai.png"/>
+            <img id="moto" src="pagrindinis_pav.png"/>
         </div>
     </body>
-</html>
